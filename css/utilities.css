@@ -18,9 +18,10 @@
 .flex-justify-around { justify-content: space-around; }
 .flex-justify-center { justify-content: center; }
 .flex-align-center { align-items: center; }
+.flex-align-start { align-items: flex-start; }
 .f-wrap{flex-wrap:wrap;}
 
-/*** LARGHEZZE ***/
+/*** WIDTH ***/
 .w-10 { width: 10%; } /* 1/10 */
 .w-20 { width: 20%; } /* 1/5 */
 .w-25 { width: 25%; } /* 1/4 */
@@ -35,7 +36,7 @@
 .w-80 { width: 80%; } /* 4/5 */
 .w-100 { width: 100%; }
 
-/*** Altezze ***/
+/*** HEIGHT ***/
 .h-10 {height: 10%; } /* 1/10 */
 .h-20 {height: 20%; } /* 1/5 */
 .h-25 {height: 25%; } /* 1/4 */
@@ -151,14 +152,14 @@
 .f-16{font-size: 16px;}
 .f-32{font-size: 32px;}
 .f-64{font-size: 64px;}
-/*** FONT-SIZE ***/
+
 
 
 /*** POSITION ***/
 .relative{position:relative;}
 .absolute{position:absolute;}
 .fixed{position: fixed;}
-/*** POSITION ***/
+
 
 /*** Z-INDEX ***/
 .z-0{z-index:0;}
@@ -167,7 +168,7 @@
 .z-3d{z-index:3;}
 .z-4{z-index:4;}
 .z-999{z-index:999;}
-/*** Z-INDEX ***/
+
 
 /*** VH ***/
 .vh-10{height:10vh;}
@@ -179,7 +180,7 @@
 .vh-70{height:70vh;}
 .vh-90{height:90vh;}
 .vh-100{height:100vh;}
-/*** VH ***/
+
 
 /*** VW ***/
 .vw-10{height:10vw;}
@@ -191,4 +192,3 @@
 .vw-70{height:70vw;}
 .vw-90{height:90vw;}
 .vw-100{height:100vw;}
-/*** VW ***/

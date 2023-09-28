@@ -10,12 +10,6 @@ body {
 	font-family: sans-serif;
 }
 
-.container {
-	display: flex;
-	justify-content: end;
-	align-items: flex-start;
-}
-
 .container-footer {
 	display: flex;
 	justify-content: space-between;
