@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>html-css-zoom</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -156,9 +157,71 @@
 		</div>
 	</main>
 
-    <footer class="container">
-
-    </footer>
+    <footer>
+		<div class="d-flex flex-justify-between flex-align-center h-100">
+			<!--tools-->
+			<div class="d-flex w-10 flex-justify-around">
+				<!--microfono-->
+				<div>
+					<i class="fa-solid fa-microphone c-white"></i>
+					<i class="fa-solid fa-chevron-up c-white"></i>
+					<div  class="c-white">Video</div>
+				</div>
+				<!--microfono-->
+				<!--video-->
+				<div>
+					<i class="fa-solid fa-video c-white"></i>
+					<i class="fa-solid fa-chevron-up c-white"></i>
+					<div class="c-white">Mute</div>
+				</div>
+				<!--video-->
+			</div>
+			
+			<!--options-->
+			<div>
+				<ul class="d-flex">
+					<li class="c-white m-8">
+						<i class="fa-solid fa-user-plus"></i>
+						<div>Invite</div>
+					</li>
+					<li class="c-white m-8">
+						<i class="fa-solid fa-users"></i>
+						<div> Manage Partecipants</div>
+					</li>
+					<li class="c-white m-8">
+						<i class="fa-solid fa-chart-column"></i>
+						<div>Polling</div>
+					</li>
+					<li class="c-green m-8">
+						<i class="fa-solid fa-share-from-square"></i>
+						<div>Share screen</div>
+					</li>
+					<li class="c-white m-8">
+						<i class="fa-solid fa-chevron-up"></i>
+						<i class="fa-solid fa-comment"></i>
+						<div>chat</div>
+					</li>
+					<li class="c-white m-8">
+						<i class="fa-solid fa-record-vinyl"></i>
+						<div>Record</div>
+					</li>
+					<li class="c-white m-8">
+						<i class="fa-solid fa-table"></i>
+						<div>Breck out Rooms</div>
+					</li>
+					<li class="c-white m-8">...
+						<div>More</div>
+					</li>
+				</ul>
+			</div>
+			
+			<!--end meeting-->
+			<div class="bg-grey w-10 h-100 c-red p-16 fine-call d-flex flex-align-center">
+				End Meeting
+			</div>
+		
+		</div>
+</footer>
 
 </body>
 </html>
